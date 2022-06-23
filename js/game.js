@@ -25,7 +25,9 @@ function start(){
     negative = 0;
     limpiarCanvas();
     wordRandom = wordI();
+/* Si queremos ver la palabra en la consola:
     console.log(wordRandom);
+*/
     charsDisable(false);
     btn.disabled = true;
     btn.style.backgroundColor = 'gray';
