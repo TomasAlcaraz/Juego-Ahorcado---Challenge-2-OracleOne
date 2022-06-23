@@ -1,0 +1,101 @@
+#canvas{
+    background-color: oldlace;
+    width: 90%;
+    height: 360px;
+    margin: 0 auto;
+    max-width: 400px;
+}
+.header_game{
+    display: flex;
+}
+.menu_games{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.menu_img{
+    height: 2rem;
+    margin: 1rem;
+}
+.word_area{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.word_item{
+    font-family: var(--staatliches);
+    color: black;
+    font-size: 1.6rem;
+    border-bottom: 2px solid black;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-bottom: 2rem;
+    align-content: center;
+    text-align: center;
+}
+.win:after{
+    font-family: var(--leaguegothic);
+    background-color: #04BD1D;
+    width: 40px;
+    height: 20px;
+    margin: 0 auto;
+    content: 'GANASTE'; 
+    color: white;
+    font-size: 20px;
+    padding: 12px 140px;
+    border-radius: 5px;
+}
+.lose:after{
+    font-family: var(--leaguegothic);
+    background-color: #C70039;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    content: 'PERDISTE';
+    color: white;
+    font-size: 20px;
+    padding: 12px 140px ;
+    border-radius: 5px;
+}
+.btn_area{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.game_area{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.alphabet{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-right: 1.2rem;
+    margin-left: 1.2rem;
+    gap: 6px;
+    max-width: 800px;
+}
+.alphabet_char{
+    width: 3rem;
+    height: 3rem;
+    background-color: #856BDE;
+    color: aliceblue;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 18px;
+    font-family: var(--staatliches);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    box-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.alphabet_char:hover{
+    background-color: #3A0AE9;
+    transition-duration: 0.5s;
+}
+.footer_game{
+    background-color: red;
+}

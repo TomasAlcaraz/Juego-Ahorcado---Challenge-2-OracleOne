@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <link rel="shortcut icon" href="./img/Icon-TA.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/game.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bases.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header_game">
+        <nav class="menu_game"><a href="./index.html">
+            <img src="./img/home.png" alt="home" class="menu_img"></a>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="game_area">
+            <canvas id="canvas" width="400px" height="400px"></canvas>
+            <p class="word_area">
+            </p>
+            <div class="btn_area">
+                <button class="btn_play_game link_play_game" id="btn_get">Obtener Palabra
+                </button>
+            </div>
+            <div class="alphabet">
+            <button class="alphabet_char">A</button>
+            <button class="alphabet_char">B</button>
+            <button class="alphabet_char">C</button>
+            <button class="alphabet_char">D</button>
+            <button class="alphabet_char">E</button>
+            <button class="alphabet_char">F</button>
+            <button class="alphabet_char">G</button>
+            <button class="alphabet_char">H</button>
+            <button class="alphabet_char">I</button>
+            <button class="alphabet_char">J</button>
+            <button class="alphabet_char">K</button>
+            <button class="alphabet_char">L</button>
+            <button class="alphabet_char">M</button>
+            <button class="alphabet_char">N</button>
+            <button class="alphabet_char">Ñ</button>
+            <button class="alphabet_char">O</button>
+            <button class="alphabet_char">P</button>
+            <button class="alphabet_char">Q</button>
+            <button class="alphabet_char">R</button>
+            <button class="alphabet_char">S</button>
+            <button class="alphabet_char">T</button>
+            <button class="alphabet_char">U</button>
+            <button class="alphabet_char">V</button>
+            <button class="alphabet_char">W</button>
+            <button class="alphabet_char">X</button>
+            <button class="alphabet_char">Y</button>
+            <button class="alphabet_char">Z</button>
+        </div>
+        </section>
+    </main>
+    <footer class="container">
+        <div class="footer_container">
+            <p class="footer_text">Tomás Alejandro Alcaraz</p>
+            <p class="footer_text">Proyecto para Oracle-ONE</p>
+        </div>
+    </footer>
+    <script src="./js/canvas.js"></script>
+    <script src="./js/game.js"></script>
+</body>
+</html>
